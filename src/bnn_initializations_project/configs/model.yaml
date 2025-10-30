@@ -1,0 +1,10 @@
+layer_widths: [INPUT_DIM, 50, 50, 1]
+activation: tanh
+lik_sigma: 1
+priors:
+  - name: isotropic_gaussian
+  - name: laplace
+  - name: student_t
+    nu: 5.0
+prior_scale: 1.0
+init_scheme: isotropic_gaussian

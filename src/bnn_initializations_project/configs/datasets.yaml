@@ -1,0 +1,7 @@
+source: openml
+min_rows: 100
+max_rows: 10000
+max_features: 50
+only_numeric_target: true
+drop_list: []
+max_datasets: 30

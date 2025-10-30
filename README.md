@@ -1,6 +1,6 @@
 # Bayesian Neural Network Prior Study
 
-An end-to-end pipeline for exploring when non-Gaussian weight priors improve Bayesian neural network performance on small regression datasets. The workflow covers dataset discovery, meta-feature extraction (PyMFE + handcrafted descriptors), Metropolis–Hastings inference with swappable priors (Gaussian, Laplace, Student‑t), and post-hoc analysis tying posterior metrics back to dataset characteristics.
+An end-to-end pipeline for exploring the impact of weight priors in Bayesian neural network on small regression datasets. The workflow covers dataset discovery, meta-feature extraction (via PyMFE), Metropolis–Hastings inference with swappable priors (Gaussian, Laplace, Student‑t), and post-hoc analysis tying posterior metrics back to dataset characteristics.
 
 ---
 
